@@ -1,0 +1,62 @@
+.heart2{
+    display: flex;
+    justify-content: end;
+    padding: 7px;
+}
+
+.head{
+    margin-top: -30px;
+}
+
+.heart1{
+   padding: 7px;
+}
+
+.pictureContain{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.picture{
+    width: 90%;
+    object-fit: contain;
+    padding: 10px 0px 60px 13px;
+}
+
+.linha{
+    width: 85%;
+    background-color: #D99BFF;
+    height: 3px;
+    margin: 0 auto;
+}
+
+.textBlock{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.last{
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+    body{
+        width: 400px;
+        margin: 0 auto;
+    }
+  }
+
